@@ -1,0 +1,14 @@
+{
+  "properties": [
+    { "name": "spring.user.name",
+      "defaultValue": "laowan",
+      "description": "用户名称.",
+      "type": "java.lang.String"
+    },
+    { "name": "spring.user.enabled",
+      "defaultValue": false,
+      "description": "是否启用user组件.",
+      "type": "java.lang.Boolean"
+    }
+  ]
+}
