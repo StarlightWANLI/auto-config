@@ -14,10 +14,6 @@ class DemoApplicationTests {
     UserClient userClient;
 
     @Test
-    void contextLoads() {
-    }
-
-    @Test
     void userClientTest() {
         log.info(userClient.getName());
     }

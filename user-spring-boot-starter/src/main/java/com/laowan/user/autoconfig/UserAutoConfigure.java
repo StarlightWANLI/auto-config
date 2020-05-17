@@ -10,7 +10,7 @@ import org.springframework.context.annotation.Configuration;
 public class UserAutoConfigure {
 
     @Bean
-  //  @ConditionalOnProperty(prefix = "spring.user",value ="enabled",havingValue = "true")
+    @ConditionalOnProperty(prefix = "spring.user",value ="enabled",havingValue = "true")
     public UserClient userClient(UserPorperties userPorperties){
         return new UserClient(userPorperties);
     }
